@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u07_sozlukler", "u07_sozluk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u08_stack_ve_queue", "u08_stack_ve_queue\u08_stack_ve_queue.csproj", "{27CBB3E8-DE83-4B1E-A81D-FB9694808F9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u09_dosyalama1", "u09_dosyalama1\u09_dosyalama1.csproj", "{1FAC2032-DBA2-43B7-B48B-F1144F5B4D54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{27CBB3E8-DE83-4B1E-A81D-FB9694808F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27CBB3E8-DE83-4B1E-A81D-FB9694808F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27CBB3E8-DE83-4B1E-A81D-FB9694808F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FAC2032-DBA2-43B7-B48B-F1144F5B4D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FAC2032-DBA2-43B7-B48B-F1144F5B4D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FAC2032-DBA2-43B7-B48B-F1144F5B4D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FAC2032-DBA2-43B7-B48B-F1144F5B4D54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
