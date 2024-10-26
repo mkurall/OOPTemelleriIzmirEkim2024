@@ -16,6 +16,6 @@ arrayList.RemoveAt(2);//silmek
 
 foreach(object elem in arrayList)
 {
-    Console.WriteLine(elem);
+    Console.WriteLine(elem);//her eleman için ToString() metodu çağırılır
 }
 
