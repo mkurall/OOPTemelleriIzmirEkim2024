@@ -19,3 +19,10 @@ p2.Yazdir();
 
 
 Mudur mudur = new Mudur(3);//idsi olmayan personel oluştu
+mudur.Ad = "Ali";
+mudur.Soyad = "KARA";
+
+mudur.CalisanEkle(p1);
+mudur.CalisanEkle(p2);
+
+mudur.CalisanlariListele();
