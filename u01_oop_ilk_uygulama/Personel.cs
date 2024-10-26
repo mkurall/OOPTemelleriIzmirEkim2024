@@ -14,10 +14,10 @@ public class Personel
 
     //Constructor (Yapıcı metotlar)
     //Amaç: Personel oluşturulken id verilmesi
-    public Personel(int personelId)
+    public Personel(int id)
     {
         Console.WriteLine("Personel yapıcı metodu çalıştı.");
-        id = personelId;
+        this.id = id;
     }
 
     //Methods (metotlar)

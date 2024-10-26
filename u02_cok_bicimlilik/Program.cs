@@ -1,4 +1,4 @@
-﻿using u02_cok_bicimlilik;
+﻿using u02_cok_bicimlilik2;
 
 Console.WriteLine("Çokbiçimlilik....");
 
@@ -20,4 +20,9 @@ Kare kare = new Kare(){AKenari = 3};
 Console.WriteLine($"Karenin A Kenarı= {kare.AKenari}");//get çalışır
 
 kare.AKenari = 5; //set çalışır
+
+
+Cember cember = new Cember(){YariCap=2};
+
+Console.WriteLine($"Çemberin Alanı = {cember.AlaniHesapla()}");
 
