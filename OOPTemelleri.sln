@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u10_klasor_islemleri", "u10
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u11_dosya_islemleri", "u11_dosya_islemleri\u11_dosya_islemleri.csproj", "{71B08890-3870-42AB-8AEB-CB987E0C05FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u12_hata_yonetimi", "u12_hata_yonetimi\u12_hata_yonetimi.csproj", "{B121F72E-B9BB-47C9-B097-5CD5C4AF6C57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,5 +80,9 @@ Global
 		{71B08890-3870-42AB-8AEB-CB987E0C05FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71B08890-3870-42AB-8AEB-CB987E0C05FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71B08890-3870-42AB-8AEB-CB987E0C05FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B121F72E-B9BB-47C9-B097-5CD5C4AF6C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B121F72E-B9BB-47C9-B097-5CD5C4AF6C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B121F72E-B9BB-47C9-B097-5CD5C4AF6C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B121F72E-B9BB-47C9-B097-5CD5C4AF6C57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
