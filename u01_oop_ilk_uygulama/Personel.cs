@@ -13,8 +13,10 @@ public class Personel
     public string Soyad { get { return soyad; } set { soyad = value; } }
 
     //Constructor (Yapıcı metotlar)
+    //Amaç: Personel oluşturulken id verilmesi
     public Personel(int personelId)
     {
+        Console.WriteLine("Personel yapıcı metodu çalıştı.");
         id = personelId;
     }
 
