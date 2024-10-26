@@ -26,3 +26,7 @@ mudur.CalisanEkle(p1);
 mudur.CalisanEkle(p2);
 
 mudur.CalisanlariListele();
+
+p1.Yazdir();
+p2.Yazdir();
+mudur.Yazdir();

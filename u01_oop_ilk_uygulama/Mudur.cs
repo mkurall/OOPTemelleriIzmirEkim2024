@@ -1,11 +1,11 @@
 ﻿namespace u01_oop_ilk_uygulama;
 
 //Kalıtım
-public class Mudur : Personel
+public class Mudur : Personel      //mudur = this, personel = base
 {
     private int calisanSayisi = 0;
     Personel[] calisanlar = new Personel[10];
-    public Mudur(int id): base(id) //önce Personel oluşturulsun
+    public Mudur(int id) : base(id)//new Personel(id)  //önce Personel oluşturulsun
     {
         Console.WriteLine("Müdür yapıcı metodu çalıştı.");
     }
@@ -29,4 +29,8 @@ public class Mudur : Personel
         }
     }
 
+    public override void Yazdir() //virtual ----> override
+    {
+        Console.WriteLine($"{Id} - {Ad} {Soyad} - Müdür");
+    }
 }

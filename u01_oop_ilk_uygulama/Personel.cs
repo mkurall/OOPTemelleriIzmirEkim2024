@@ -21,7 +21,7 @@ public class Personel
     }
 
     //Methods (metotlar)
-    public void Yazdir()
+    public virtual void Yazdir()
     {
         Console.WriteLine($"{id} - {ad} {soyad}");
     }
