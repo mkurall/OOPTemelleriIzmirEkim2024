@@ -5,7 +5,7 @@
 
 
 
-CommandHandler.Execute(new NetworkInput(), new ConsoleOutput());
+CommandHandler.Run(new ConsoleInput(), new ConsoleOutput());
 
 
 

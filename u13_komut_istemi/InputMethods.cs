@@ -14,6 +14,10 @@ class ConsoleOutput : IOutputHandler
     {
         Console.WriteLine(str);
     }
+    public void Clear()
+    {
+        Console.Clear();
+    }
 }
 
 class NetworkInput : IInputHandler

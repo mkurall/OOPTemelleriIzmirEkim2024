@@ -5,7 +5,7 @@ namespace u13_komut_istemi;
 public static class CommandHandler
 {
     static Prompt prompt = new Prompt();
-    public static void Execute(IInputHandler input, IOutputHandler output)
+    public static void Run(IInputHandler input, IOutputHandler output)
     {
         string cmd;
 
@@ -13,7 +13,18 @@ public static class CommandHandler
         do
         {
             cmd = prompt.ReadCommand(input);
+
             //Komutu işleyecek 
+            if(cmd == "clear")
+            {
+                CmdClear command = new CmdClear();
+                command.Execute(output);
+            }
+            else if(cmd == "ls")
+            {
+                CmdList command = new CmdList();
+                command.Execute(output);
+            }
 
         } while(cmd != "quit");
     }
