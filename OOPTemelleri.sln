@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u09_dosyalama1", "u09_dosya
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u10_klasor_islemleri", "u10_klasor_islemleri\u10_klasor_islemleri.csproj", "{9E157140-797E-40FA-8737-87739711B444}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u11_dosya_islemleri", "u11_dosya_islemleri\u11_dosya_islemleri.csproj", "{71B08890-3870-42AB-8AEB-CB987E0C05FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,9 @@ Global
 		{9E157140-797E-40FA-8737-87739711B444}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E157140-797E-40FA-8737-87739711B444}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E157140-797E-40FA-8737-87739711B444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71B08890-3870-42AB-8AEB-CB987E0C05FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71B08890-3870-42AB-8AEB-CB987E0C05FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71B08890-3870-42AB-8AEB-CB987E0C05FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71B08890-3870-42AB-8AEB-CB987E0C05FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
