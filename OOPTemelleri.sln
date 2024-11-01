@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u12_hata_yonetimi", "u12_ha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u13_komut_istemi", "u13_komut_istemi\u13_komut_istemi.csproj", "{531D06A3-AD52-45F8-A7C6-662ADEAADBFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u14_interface", "u14_interface\u14_interface.csproj", "{C79F1D1B-ACD7-441B-B80E-872EB65245AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +92,9 @@ Global
 		{531D06A3-AD52-45F8-A7C6-662ADEAADBFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{531D06A3-AD52-45F8-A7C6-662ADEAADBFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{531D06A3-AD52-45F8-A7C6-662ADEAADBFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C79F1D1B-ACD7-441B-B80E-872EB65245AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C79F1D1B-ACD7-441B-B80E-872EB65245AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C79F1D1B-ACD7-441B-B80E-872EB65245AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C79F1D1B-ACD7-441B-B80E-872EB65245AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
