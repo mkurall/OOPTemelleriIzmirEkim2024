@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u13_komut_istemi", "u13_kom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u14_interface", "u14_interface\u14_interface.csproj", "{C79F1D1B-ACD7-441B-B80E-872EB65245AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u15_struct", "u15_struct\u15_struct.csproj", "{04A639E0-E174-4D2E-90A2-1107EB410EBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u16_enum_flag_attribute", "u16_enum_flag_attribute\u16_enum_flag_attribute.csproj", "{42882632-3227-4EDB-86F2-CB924F72245E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,5 +100,13 @@ Global
 		{C79F1D1B-ACD7-441B-B80E-872EB65245AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C79F1D1B-ACD7-441B-B80E-872EB65245AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C79F1D1B-ACD7-441B-B80E-872EB65245AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04A639E0-E174-4D2E-90A2-1107EB410EBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04A639E0-E174-4D2E-90A2-1107EB410EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04A639E0-E174-4D2E-90A2-1107EB410EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04A639E0-E174-4D2E-90A2-1107EB410EBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42882632-3227-4EDB-86F2-CB924F72245E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42882632-3227-4EDB-86F2-CB924F72245E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42882632-3227-4EDB-86F2-CB924F72245E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42882632-3227-4EDB-86F2-CB924F72245E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
